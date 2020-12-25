@@ -24,6 +24,9 @@ const authRoute = require('./routes/auth');
 const vehicleRoutes = require('./routes/vehicles');
 
 //Use     middleware
+app.get('/', (req, res) => {
+    res.send("TEST");
+})
 app.use('/api/user', authRoute);
 app.use('/api/vehicles', vehicleRoutes);
 
