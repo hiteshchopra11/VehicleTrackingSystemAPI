@@ -6,7 +6,7 @@ https://fast-island-41051.herokuapp.com/
 
 ## API Endpoints-:
 
-###Register a driver-:
+### Register a driver-:
 POST https://fast-island-41051.herokuapp.com/api/user/register
 
 ### Login a driver-:
