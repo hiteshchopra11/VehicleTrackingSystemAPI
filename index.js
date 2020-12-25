@@ -19,7 +19,7 @@ db.once('open', () => {
 //We  need response in JSON
 app.use(express.json());
 
-//Impo   rt Routes
+//Import Routes
 const authRoute = require('./routes/auth');
 const vehicleRoutes = require('./routes/vehicles');
 
