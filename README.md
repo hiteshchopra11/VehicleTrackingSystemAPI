@@ -4,27 +4,27 @@ APIs for Vehicle Tracking System Android Application and Web Application
 Link to API-:
 https://fast-island-41051.herokuapp.com/
 
-##API Endpoints-:
+## API Endpoints-:
 
 ###Register a driver-:
 POST https://fast-island-41051.herokuapp.com/api/user/register
 
-###Login a driver-:
+### Login a driver-:
 GET https://fast-island-41051.herokuapp.com/api/user/login
 
-###Sending vehicle data to the server
+### Sending vehicle data to the server
 POST https://fast-island-41051.herokuapp.com/api/vehicles
 
-###Getting details of a particular vehicle 
+### Getting details of a particular vehicle 
 GET https://fast-island-41051.herokuapp.com/api/vechilces/:id
 
-###Updating location co-ordinates, fuel and service charges of a vehicle
+### Updating location co-ordinates, fuel and service charges of a vehicle
 PATCH https://fast-island-41051.herokuapp.com/api/vechilces/:id
 
-###TEST APP-:
+### TEST APP-:
 GET https://fast-island-41051.herokuapp.com/
 
-###GET DETAILS OF ALL VEHICLES(for testing)
+### GET DETAILS OF ALL VEHICLES(for testing)
 GET https://fast-island-41051.herokuapp.com/api/vehicles
 
 
