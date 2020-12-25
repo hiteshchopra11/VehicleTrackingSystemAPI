@@ -10,7 +10,7 @@ https://fast-island-41051.herokuapp.com/
 POST https://fast-island-41051.herokuapp.com/api/user/register
 
 ### Login a driver-:
-GET https://fast-island-41051.herokuapp.com/api/user/login
+POST https://fast-island-41051.herokuapp.com/api/user/login
 
 ### Sending vehicle data to the server
 POST https://fast-island-41051.herokuapp.com/api/vehicles
@@ -18,7 +18,7 @@ POST https://fast-island-41051.herokuapp.com/api/vehicles
 ### Getting details of a particular vehicle 
 GET https://fast-island-41051.herokuapp.com/api/vechilces/:id
 
-### Updating location co-ordinates, fuel and service charges of a vehicle
+### Updating location co-ordinates, fuel and service charges of a particular vehicle
 PATCH https://fast-island-41051.herokuapp.com/api/vechilces/:id
 
 ### TEST APP-:
