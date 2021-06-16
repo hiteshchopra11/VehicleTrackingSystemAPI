@@ -16,10 +16,10 @@ POST https://fast-island-41051.herokuapp.com/api/user/login
 POST https://fast-island-41051.herokuapp.com/api/vehicles
 
 ### Getting details of a particular vehicle 
-GET https://fast-island-41051.herokuapp.com/api/vechilces/:id
+GET https://fast-island-41051.herokuapp.com/api/vehicles/:id
 
 ### Updating location co-ordinates, fuel and service charges of a particular vehicle
-PATCH https://fast-island-41051.herokuapp.com/api/vechilces/:id
+PATCH https://fast-island-41051.herokuapp.com/api/vehicles/:id
 
 ### TEST APP-:
 GET https://fast-island-41051.herokuapp.com/
